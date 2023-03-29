@@ -1,0 +1,12 @@
+.select {
+  border-radius: 8px;
+}
+
+.select-option {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.select-option:not(:last-of-type) {
+  border-bottom: 1px solid var(--theme-color);
+}

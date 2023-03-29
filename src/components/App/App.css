@@ -1,0 +1,13 @@
+.header {
+  height: 100px;
+  background-color: rgb(0, 38, 18);
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: bold;;
+}
+
+.main {
+  margin: 16px;
+}

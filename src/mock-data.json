@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "firstName": "Saul",
+    "lastName": "Goodman",
+    "avatar": "avatars/saul-goodman.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Lawyer"
+  },
+  {
+    "id": 2,
+    "firstName": "Mike",
+    "lastName": "Ermantrout",
+    "avatar": "avatars/mike.jpeg",
+    "city": "Albuquerque",
+    "jobTitle": "Private investigator"
+  },
+  {
+    "id": 3,
+    "firstName": "Hank",
+    "lastName": "Schrader",
+    "avatar": "avatars/hank.jpeg",
+    "city": "Albuquerque",
+    "jobTitle": "DEA Agent"
+  },
+  {
+    "id": 4,
+    "firstName": "Skyler",
+    "lastName": "White",
+    "avatar": "avatars/skyler.jpeg",
+    "city": "Albuquerque",
+    "jobTitle": "Housewife"
+  },
+  {
+    "id": 5,
+    "firstName": "Hector",
+    "lastName": "Salamanca",
+    "avatar": "avatars/hector.jpeg",
+    "city": "Albuquerque",
+    "jobTitle": "Entrepreneur"
+  },
+  {
+    "id": 6,
+    "firstName": "Gustavo",
+    "lastName": "Fring",
+    "avatar": "avatars/gustavo.jpeg",
+    "city": "Albuquerque",
+    "jobTitle": "Entrepreneur"
+  },
+  {
+    "id": 7,
+    "firstName": "Tuko",
+    "lastName": "Salamanca",
+    "avatar": "avatars/tuko.webp",
+    "city": "New York",
+    "jobTitle": "Distributor"
+  },
+  {
+    "id": 8,
+    "firstName": "Jessy",
+    "lastName": "Pinkman",
+    "avatar": "avatars/jessy.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Chemist"
+  },
+  {
+    "id": 9,
+    "firstName": "Walter",
+    "lastName": "White",
+    "avatar": "avatars/walter.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Chemist"
+  },
+  {
+    "id": 10,
+    "firstName": "Marie",
+    "lastName": "Schrader",
+    "avatar": "avatars/marie.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Radiologic technologist"
+  },
+  {
+    "id": 11,
+    "firstName": "Walter",
+    "lastName": "White Jr.",
+    "avatar": "avatars/walter-jr.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Student"
+  },
+  {
+    "id": 12,
+    "firstName": "Jane",
+    "lastName": "Margolis",
+    "avatar": "avatars/jane.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Tattoo artist"
+  },
+  {
+    "id": 13,
+    "firstName": "Gale",
+    "lastName": "Boetticher",
+    "avatar": "avatars/gale.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Chemist"
+  },
+  {
+    "id": 14,
+    "firstName": "Ted",
+    "lastName": "Beneke",
+    "avatar": "avatars/ted.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Entrepreneur"
+  },
+  {
+    "id": 15,
+    "firstName": "Huell",
+    "lastName": "Babineaux",
+    "avatar": "avatars/huell.webp",
+    "city": "Albuquerque",
+    "jobTitle": "Personal bodyguard"
+  }
+]

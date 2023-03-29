@@ -1,0 +1,32 @@
+.member {
+  width: 300px;
+  border: 1px solid var(--theme-color);
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px var(--theme-color);
+}
+
+.member-avatar-wrapper {
+  height: 300px;
+  overflow: hidden;
+}
+
+.member-caption {
+  padding: 8px 0;
+  background-color: var(--theme-color);
+  text-align: center;
+  color: white;
+}
+
+.member-description-item {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.member-description-item:not(:last-of-type) {
+  border-bottom: 1px solid var(--theme-color);
+}
+
+.member-description-item-title {
+  flex-basis: 100px;
+}
