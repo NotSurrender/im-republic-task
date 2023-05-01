@@ -2,7 +2,7 @@ import { SelectOption } from "../../ui/Select";
 import { removeDuplicates } from "../../utils";
 import { MemberProps } from "../Member";
 
-export function normalizeMembersToSelectOptions(members: MemberProps[]) {
+export function getJobTitlesOptions(members: MemberProps[]): SelectOption[] {
   let jobTitles = members.map((member) => member.jobTitle);
   jobTitles = removeDuplicates(jobTitles);
 

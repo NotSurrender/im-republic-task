@@ -1,13 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { MemberProps } from "../Member/interfaces";
-import { SelectOption } from "../../ui/Select";
 import { HttpClient } from "../../http/http-client";
-import { normalizeMembersToSelectOptions } from "./utils";
+import { getJobTitlesOptions } from "./utils";
 
 export const useMain = () => {
-  const { members, jobTitlesOptions, loading } = useQueryMembers();
+  const { members, loading } = useQueryMembers();
   const { search, handleSearch } = useSearch();
   const { selectedOptions, handleFilter } = useFilter();
+  const jobTitlesOptions = useMemo(
+    () => getJobTitlesOptions(members),
+    [members]
+  );
 
   const filteredMembers = members
     .filter((member) => {
@@ -36,7 +39,6 @@ export const useQueryMembers = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [members, setMembers] = useState<MemberProps[]>([]);
-  const [jobTitlesOptions, setJobTitlesOptions] = useState<SelectOption[]>([]);
 
   useEffect(() => {
     const fetchMembers = async () => {
@@ -45,9 +47,7 @@ export const useQueryMembers = () => {
         const membersData = await HttpClient.emitateGet<MemberProps[]>(
           "fake-url"
         );
-        const jobTitlesOptions = normalizeMembersToSelectOptions(membersData);
         setMembers(membersData);
-        setJobTitlesOptions(jobTitlesOptions);
       } catch (err) {
         console.error(err);
         setError(String(err));
@@ -61,7 +61,6 @@ export const useQueryMembers = () => {
 
   return {
     members,
-    jobTitlesOptions,
     loading,
     error,
   };
